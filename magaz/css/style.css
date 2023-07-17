@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+.navMenu {
+  margin-top: 20px;
+  text-align: center;
+}
+.navMenu a{
+  color: black;
+  text-decoration: none;
+  padding: 7px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.contact{
+  margin-left: 300px;
+  font-size: 20px;
+}
+.mainimg{
+  margin-left: 800px;
+  margin-top: -50px;
+}
+.icons li:before {
+content: "\f015"; /* добавляем иконку дом */
+font-family: FontAwesome;
+color: #aaaaaa;
+margin-right: 10px;
+}
+.icons{
+  margin-left: 1400px ;
+  margin-top: -80px ;
+}
+.rip ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.benefits {
+    background: #7b3f00;
+    position: relative;
+}
+
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.benefits-inner {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.benefit-inner {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.benefit-image {
+    background: transparent;
+    border: 1px solid #ffffff;
+    font-size: 0;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.benefit-title {
+    display: block;
+    text-transform: uppercase;
+    line-height: 1.8em;
+    max-width: 100%;
+    padding-left: 0.5em;
+    text-align: left;
+}
+
+.benefit {
+    color: #ffffff;
+}
+.benefit {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cell-xl-4 {
+    max-width: 33.33333%;
+    -webkit-flex-basis: 33.33333%;
+    -ms-flex-preferred-size: 33.33333%;
+    flex-basis: 33.33333%;
+}
+[class*=cell-] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col, .col-reverse, .row, .row-reverse {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 100%;
+    -ms-flex: 0 1 100%;
+    flex: 0 1 100%;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    background-color: #88d4b7;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.rip{
+  margin-top: 0px;
+  background: #c5c5c5;
+}
+
+
+
+ html, body {
+      width: 100%;
+      height: 60%;
+      margin: 0;
+      padding: 0;
+      font-family: "Helvetica", sans-serif;
+      }
+      img {
+      max-width: 100%;
+      }
+      .slider-container {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      }
+      .menu {
+      position: absolute;
+      left: 0;
+      z-index: 900;
+      width: 100%;
+      bottom: 0;
+      }
+      .menu label {
+      cursor: pointer;
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      background: #fff;
+      border-radius: 50px;
+      margin: 0 0.2em 1em;
+      }
+      .menu label:hover,.menu label:focus {
+      background: #1c87c9;
+      }
+      .slide {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 100%;
+      z-index: 10;
+      padding: 8em 1em 0;
+      background-size: cover;
+      background-position: 50% 50%;
+      transition: left 0s 0.75s;
+      }
+      [id^="slide"]:checked + .slide {
+      left: 0;
+      z-index: 100;
+      transition: left 0.65s ease-out;
+      }
+      .slide-1 {
+      background-image: url("img/slider2020_v3_1.jpg");
+      }
+      .slide-2 {
+      background-image: url("img/slider2020_v1_1.jpg");
+      }
+      .slide-3 {
+      background-image: url("img/slider2020_v1_1.jpg");
+      }
+
+      .aktsii{
+        text-align: center;
+        padding: 10px;
+        font-size: 25px;
+      }
+      .cart{
+        margin-right: 100px;
+      }
+      .about{
+        color: white;
+        text-align: center;
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 30px;
+      }
+      

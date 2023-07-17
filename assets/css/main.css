@@ -1,0 +1,101 @@
+
+.texts {
+    
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 150%;
+
+}
+
+.pic {
+text-align: center; /* Выравнивания картинки по центру в html */ 
+}
+
+.bod {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+
+}
+
+
+.lich {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+
+}
+
+
+.o {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+td {
+    padding: 0 30px;
+
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+.button {
+
+
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    font-size: 100%;
+}
+
+
+.button:hover { background-color: #D3D3D3; }
+
+
+
+
+
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+
+
+
+
+.logout {
+    color: #b7625c;
+}
+
+
